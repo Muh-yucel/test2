@@ -3,10 +3,10 @@ import json
 person_string = '{"name":"Ali", "languages":["python","C#"]}'
 person_dict = {"name": "Ali","languages": ["Python","C#"] }
 
-# JSON string to Dict
-# result = json.loads(person_string)
-# result = result["name"]
-# result = result["languages"]
+JSON string to Dict
+result = json.loads(person_string)
+result = result["name"]
+result = result["languages"]
 
 # with open("person.json") as f:
 #     data = json.load(f)
