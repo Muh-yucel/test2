@@ -8,10 +8,10 @@ result = json.loads(person_string)
 result = result["name"]
 result = result["languages"]
 
-with open("person.json") as f:
-    data = json.load(f)
-    print(data["name"])
-    print(data["languages"])
+# with open("person.json") as f:
+#     data = json.load(f)
+#     print(data["name"])
+#     print(data["languages"])
 
 
 # Dict to JSON string
